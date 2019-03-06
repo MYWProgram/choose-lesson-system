@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serDoLogin</servlet-name>
+    <servlet-class>com.ten.ser.serDoLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serSelectCou</servlet-name>
+    <servlet-class>com.ten.ser.cou.serSelectCou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serDeleteCou</servlet-name>
+    <servlet-class>com.ten.ser.cou.serDeleteCou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serUpdateCou</servlet-name>
+    <servlet-class>com.ten.ser.cou.serUpdateCou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serDoUpdateCou</servlet-name>
+    <servlet-class>com.ten.ser.cou.serDoUpdateCou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serDoInsertCou</servlet-name>
+    <servlet-class>com.ten.ser.cou.serDoInsertCou</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serSelectStu</servlet-name>
+    <servlet-class>com.ten.ser.stu.serSelectStu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serInsertStu</servlet-name>
+    <servlet-class>com.ten.ser.stu.serInsertStu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serDeleteStu</servlet-name>
+    <servlet-class>com.ten.ser.stu.serDeleteStu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serUpdateStu</servlet-name>
+    <servlet-class>com.ten.ser.stu.serUpdateStu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serDoUpdateStu</servlet-name>
+    <servlet-class>com.ten.ser.stu.serDoUpdateStu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serInsertSc</servlet-name>
+    <servlet-class>com.ten.ser.sc.serInsertSc</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serDeleteSc</servlet-name>
+    <servlet-class>com.ten.ser.sc.serDeleteSc</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serDoLogout</servlet-name>
+    <servlet-class>com.ten.ser.serDoLogout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serQuerySc</servlet-name>
+    <servlet-class>com.ten.ser.sc.serQuerySc</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serUpdateClass</servlet-name>
+    <servlet-class>com.ten.ser.sc.serUpdateClass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>serDoUpdateClass</servlet-name>
+    <servlet-class>com.ten.ser.sc.serDoUpdateClass</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>serDoLogin</servlet-name>
+    <url-pattern>/servlet/serDoLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serSelectCou</servlet-name>
+    <url-pattern>/servlet/serSelectCou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serDeleteCou</servlet-name>
+    <url-pattern>/servlet/serDeleteCou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serUpdateCou</servlet-name>
+    <url-pattern>/servlet/serUpdateCou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serDoUpdateCou</servlet-name>
+    <url-pattern>/servlet/serDoUpdateCou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serDoInsertCou</servlet-name>
+    <url-pattern>/servlet/serDoInsertCou</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serSelectStu</servlet-name>
+    <url-pattern>/servlet/serSelectStu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serInsertStu</servlet-name>
+    <url-pattern>/servlet/serInsertStu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serDeleteStu</servlet-name>
+    <url-pattern>/servlet/serDeleteStu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serUpdateStu</servlet-name>
+    <url-pattern>/servlet/serUpdateStu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serDoUpdateStu</servlet-name>
+    <url-pattern>/servlet/serDoUpdateStu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serInsertSc</servlet-name>
+    <url-pattern>/servlet/serInsertSc</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serDeleteSc</servlet-name>
+    <url-pattern>/servlet/serDeleteSc</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serDoLogout</servlet-name>
+    <url-pattern>/servlet/serDoLogout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serQuerySc</servlet-name>
+    <url-pattern>/servlet/serQuerySc</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serUpdateClass</servlet-name>
+    <url-pattern>/servlet/serUpdateClass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>serDoUpdateClass</servlet-name>
+    <url-pattern>/servlet/serDoUpdateClass</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

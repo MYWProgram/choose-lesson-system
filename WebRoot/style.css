@@ -1,0 +1,127 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+
+.login_bg{
+	width: 100%;
+	height: 800px;
+	background-image: url("img/login_bg.png");
+	background-size: cover;
+	background-position:left top;
+	position: fixed;
+	
+}
+.login_box{
+	position: relative;
+	width: 600px;
+	height: 330px;
+	background: rgba(255,255,255,0.7);
+	margin: 200px auto;
+	border-radius:10px ;
+}
+.login_box .login_logo{
+	position: absolute;
+	width: 250px;
+	height: 328px;
+	top: 0;
+	left: 0px;
+}
+.login_box .login_logo .login_logo_icon{
+	width: 100px ;
+	height:118px;
+	margin-left:90px ;
+	margin-top: 70px;
+	margin-bottom: 22px;
+	
+}
+.login_box .login_logo .login_logo_text{
+	width: 172px;
+	height: 64px;
+	margin-left: 54px;
+}
+.login_box .login_line{
+	position: absolute;
+	top:56px;
+	left:253px ;
+	width: 1px;
+	height: 228px;
+	background: #922133;
+}
+.login_box .login_content{
+	position: absolute;
+	top: 0;
+	left: 282px;
+	width: 312px;
+	height: 100%;
+}
+.login_box .login_content h2{
+	font-size: 22px;
+	letter-spacing: 5px;
+	color:#000;
+	margin-top: 56px;
+	font-family: "ºÚÌå";
+}
+.login_box .login_content p{
+	font-size: 16px;
+	margin-top: 10px;
+	margin-left: 1px;
+	color:#b7937e ;
+	font-family: "ºÚÌå";
+	margin-bottom: 15px;
+}
+.login_box .login_content .login_input .login_username,.login_box .login_content .login_input .login_password{
+	width: 250px;
+	height: 30px;
+	background: rgba(0,0,0,0);
+	border: none;
+	border-bottom:1px solid #999 ;
+	outline: none;
+	font-size: 15px;
+	
+}
+.login_box .login_content .login_input .login_username{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+.login_box .login_content .login_btn{
+	margin-top: 40px;
+	width: 103px;
+	line-height: 30px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: "ºÚÌå";
+	text-align: center;
+	border: none;
+	color: #fff;
+	outline: none;
+}
+.login_box .login_content .sure{
+	background: #5CB85C;
+	margin-left: 10px;
+}
+.login_box .login_content .sure:hover{
+	background: #449D44;
+}
+.login_box .login_content .cancle{
+	background: #EC971F;
+	margin-left: 10px;
+	
+}
+.login_box .login_content .cancle:hover{
+	background: #D58512;
+}
+.login_bg .text{
+	z-index: 1;
+	float:left;
+	color: #D0C6C3;
+	text-align:center;
+	margin:0 auto;
+}
