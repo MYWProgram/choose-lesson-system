@@ -1,17 +1,19 @@
 # Choose-Lesson-System
 
-## Java(JavaBean+Serverlet)+MySql
+## 技术栈
+
+Java(JavaBean+Serverlet)+MySql
 
 ## 功能
 
-- 学生
+- 学生模块
 
   - 登录
   - 个人信息
   - 选课信息
   - 增删改查
   
-- 教师
+- 教师模块
 
   - 登录
   - 管理选课信息
@@ -26,4 +28,4 @@
 
 ## PS
 
-      学习 Java 时得一个练手项目，喜欢的话star一下。
+      学习 Java 时的一个练手项目，喜欢的话star一下。
