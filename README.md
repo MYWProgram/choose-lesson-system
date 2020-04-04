@@ -1,8 +1,10 @@
-# Choose-Lesson-System
+# choose-lesson-system
+
+学生选课系统。
 
 ## 技术栈
 
-Java(JavaBean+Serverlet)+MySql
+Java(JavaBean+Serverlet) + MySql
 
 ## 功能
 
@@ -21,11 +23,7 @@ Java(JavaBean+Serverlet)+MySql
 
 ## 运行项目须知
 
-- clone或者下载zip到本地
-- (解压)后,打开elipse选择import项目
-- 依赖为Java1.x记得jar包的更换
-- 数据库文件为.sql结尾文件(详细记载了建表操作)
-
-## PS
-
-      学习 Java 时的一个练手项目，喜欢的话star一下。
+- clone 或者下载 zip 到本地。
+- 解压后，打开 Eclipse(MyEclipse) 选择 import 项目。
+- 依赖为 Java1.x 记得 jar 包的更换。
+- 数据库文件为 .sql 结尾文件(详细记载了建表操作)。
